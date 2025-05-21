@@ -62,19 +62,10 @@ Base de uma aplicação que permite transcrever arquivos de áudio em português
 3. Clique no botão "Transcrever e Traduzir"
 4. Visualize o texto transcrito e o texto traduzido
 
-## Hospedagem na Streamlit Community Cloud
-
-Para hospedar esta aplicação no Streamlit Community Cloud:
-
-1. Crie uma conta em [Streamlit Community Cloud](https://streamlit.io/cloud)
-2. Conecte sua conta GitHub e faça o upload deste projeto
-3. Configure a variável de ambiente `GEMINI_API_KEY` nas configurações do aplicativo
-4. Implante a aplicação
-
 ## Observações
 
 - A precisão da transcrição pode variar dependendo da qualidade do áudio
-- O aplicativo suporta transcrição de áudio em português do Brasil (pt-BR)
+- O aplicativo suporta transcrição de áudio em português do Brasil (pt-BR) e Inglês
 - A tradução é limitada pelos idiomas suportados pela API Gemini
 
 ## Resolução de Problemas
